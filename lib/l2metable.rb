@@ -1,6 +1,6 @@
-require "loggable/version"
+require "l2metable/version"
 
-module Loggable
+module L2Metable 
 
   # Descendants should override and implement a specific component prefix for all log lines
   # e.g. "widget#{subcomponent}"

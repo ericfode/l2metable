@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'loggable/version'
+require 'l2metable/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "loggable"
-  spec.version       = Loggable::VERSION
+  spec.name          = "l2metable"
+  spec.version       = L2Metable::VERSION
   spec.authors       = ["ericfode","ryanbrainard"]
   spec.email         = ["ericfode@gmail.com"]
   spec.description   = %q{A mixin to add some nice logging functions that log in the l2met style}
